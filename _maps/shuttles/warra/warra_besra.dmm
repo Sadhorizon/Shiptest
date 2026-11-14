@@ -1421,15 +1421,15 @@
 	pixel_y = 11
 	},
 /obj/item/gps{
-	pixel_x = -10;
+	pixel_x = -11;
+	pixel_y = 14
+	},
+/obj/item/gps{
+	pixel_x = -5;
 	pixel_y = 14
 	},
 /obj/item/gps{
 	pixel_x = -7;
-	pixel_y = 14
-	},
-/obj/item/gps{
-	pixel_x = -8;
 	pixel_y = 14
 	},
 /obj/item/gps{
@@ -4906,6 +4906,7 @@
 	pixel_y = -4;
 	pixel_x = 8
 	},
+/obj/item/binoculars,
 /turf/open/floor/carpet/red_gold,
 /area/ship/crew/command)
 "QK" = (
