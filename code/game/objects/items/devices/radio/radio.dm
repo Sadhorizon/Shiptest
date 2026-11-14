@@ -113,7 +113,9 @@
 		secure_radio_connections[ch_name] = add_radio(src, GLOB.radiochannels[ch_name])
 
 	become_hearing_sensitive(ROUNDSTART_TRAIT)
-	ADD_TRAIT(src, TRAIT_FORCE_SUIT_STORAGE, REF(src))
+
+	if(slot_flags & ITEM_SLOT_SUITSTORE)
+		ADD_TRAIT(src, TRAIT_FORCE_SUIT_STORAGE, REF(src))
 
 /obj/item/radio/ComponentInitialize()
 	. = ..()
